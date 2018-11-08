@@ -1,0 +1,14 @@
+html,
+body {
+    height: 100%;
+}
+
+.required:after {
+    content: '*';
+    color: #f00;
+}
+
+.required-left:before {
+    content: '*';
+    color: #f00;
+}
